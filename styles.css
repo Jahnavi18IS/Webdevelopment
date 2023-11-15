@@ -1,0 +1,107 @@
+body, h1, h2, h3, p {
+    margin: 20px;
+    padding: 10px;
+}
+header {
+    background-image: url('backgroundpic.png');
+    background-size: cover;
+    color: #000000;
+    text-align: center;
+    padding: 200px 0;
+    font-size: 30px;
+    font-weight: 300px;
+    font: 2em sans-serif;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+aside {
+    background-color: #f2f2f2;
+    padding: 60px;
+    float: right;
+}
+
+.cart {
+    border: 1px solid #100e0e;
+    padding: 10px;
+}
+
+.cart h2 {
+    font-size: 18px;
+}
+.cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+.cart li {
+    margin: 5px 0;
+}
+
+.cart p {
+    font-weight: bold;
+}
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+ h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-align: center;
+}
+.cta-button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #466aa1;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    align-items: center; 
+    padding: 20px;
+}
+
+.image {
+    flex: 1; 
+    max-width: 50%; 
+    margin-right: 20px; 
+}
+
+.menu-item {
+    margin: 10px;
+    text-align: middle;
+}
+
+.menu-item img {
+    max-width: 20%;
+    height: 20%;
+    border-radius: 1px;
+}
+
+#about, #contact {
+    padding: 10px;
+    text-align: left;
+    background-color: #fff
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
